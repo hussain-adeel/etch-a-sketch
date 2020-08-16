@@ -1,0 +1,19 @@
+.center {
+    width: 99%;
+    margin: auto;
+    text-align: center;
+}
+.header {
+    padding-top: 30px;
+    font-size: 90px;
+    color: #d4d4dc;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+body {
+    background-color: #393f4d;
+}
+.smaller {
+    font-size: 25px;
+    color: #feda6a;
+}
