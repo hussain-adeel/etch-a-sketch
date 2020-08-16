@@ -17,3 +17,16 @@ body {
     font-size: 25px;
     color: #feda6a;
 }
+button {
+    margin-left: 20px
+}
+.container {
+    margin-top: 20px;
+    min-width: 960px;
+    min-height: 530px;
+    max-height: 100%;
+    border: 1px solid black;
+}
+.gh {
+    
+}
