@@ -41,6 +41,10 @@ button {
     width: auto;
     display: inline-block;
 }
-.painted {
+#noPaint {
+    background-color: transparent;
+}
+#painted 
+{
     background-color: #feda6a;
 }
