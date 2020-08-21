@@ -13,6 +13,9 @@
 body {
     background-color: #393f4d;
 }
+header {
+    height: 10%;
+}
 .smaller {
     font-size: 25px;
     color: #feda6a;
@@ -20,10 +23,24 @@ body {
 button {
     margin-left: 20px
 }
-.container {
+#container {
+    height: 70vh;
     margin-top: 20px;
-    min-width: 960px;
-    min-height: 530px;
-    max-height: 100%;
-    border: 1px solid black;
+    min-width: 950px;
+    display: grid;
+    align-items: stretch;
+    overflow: auto;
+}
+.row {
+    display: grid;
+    grid-auto-flow: column;
+}
+.col {
+    border: 1px solid #d4d4d4;
+    height: auto;
+    width: auto;
+    display: inline-block;
+}
+.painted {
+    background-color: #feda6a;
 }

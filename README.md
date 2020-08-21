@@ -1,1 +1,1 @@
-The Odin Project Etch-A-Sketch Project
+Etch-A-Sketch program made using HTML/CSS/JS
